@@ -4,13 +4,16 @@
 .sidebar {
     @include flex(stretch, flex-start);
     flex-direction: column;
-    color: $txtColor;
+    // color: $txtColor;
+    color: black;
     width: $sideBarWidth;
-    background-color: $mainBg;
+    // background-color: $mainBg;
     height: 100vh;
     position: fixed;
     top: 0;
     z-index: 100;
+    border-radius: 5%;
+    background-color: skyblue;
 
     @include tablet {
         width: 100vw;
@@ -31,9 +34,10 @@
         }
 
         img {
-            --size: 55px;
+            --size: 100px;
             width: var(--size);
             height: var(--size);
+            border-radius: 50%;
         }
 
         .sidebar-close {
@@ -67,7 +71,8 @@
             }
 
             &:hover {
-                color: $mainColor;
+                // color: $mainColor;
+                color: black;
 
                 @include tablet {
                     color: $orange;
@@ -76,7 +81,8 @@
 
             &.active {
                 font-weight: 700;
-                color: $mainColor;
+                // color: $mainColor;
+                color: black;
 
                 @include tablet {
                     color: $orange;

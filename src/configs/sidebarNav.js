@@ -9,19 +9,19 @@ const sidebarNav = [
         link: '/orders',
         section: 'orders',
         icon: <i className='bx bx-receipt' ></i>,
-        text: 'Orders'
+        text: 'Complaints'
     },
     {
         link: '/products',
         section: 'products',
         icon: <i className='bx bx-cube'></i>,
-        text: 'Products'
+        text: 'Inventory'
     },
     {
         link: '/customers',
         section: 'customers',
         icon: <i className='bx bx-user'></i>,
-        text: 'Customers'
+        text: 'Employee Details'
     },
     {
         link: '/stats',

@@ -1,6 +1,6 @@
 const images = {
-    logo: require('../assets/images/logo.svg').default,
-    avt: require('../assets/images/avt.jpg')
+    logo: require('../assets/images/skylink.jpeg'),
+    avt: require('../assets/images/img.png')
 }
 
 export default images

@@ -2,27 +2,27 @@ import images from "./images"
 
 const data = {
     user: {
-        name: 'Tuatta',
+        name: 'Admin',
         img: images.avt
     },
     summary: [
         {
-            title: 'Sales',
-            subtitle: 'Total sales today',
-            value: '$1.000',
+            title: 'Employees',
+            subtitle: 'Techinical & Non-Technical',
+            value: '500',
             percent: 70
         },
         {
-            title: 'Orders',
-            subtitle: 'Total orders today',
-            value: '3000',
-            percent: 49
+            title: 'Complaints',
+            subtitle: 'Total complaints today',
+            value: '10',
+            percent: 20
         },
         {
             title: 'Revenue',
             subtitle: 'Total revenue today',
-            value: '$678',
-            percent: 38
+            value: '10000',
+            percent: 45
         },
         {
             title: 'Visits',
@@ -41,38 +41,34 @@ const data = {
     },
     overall: [
         {
-            value: '300K',
-            title: 'Orders'
+            value: '10K',
+            title: 'Complaints'
         },
         {
-            value: '9.876K',
-            title: 'Customers'
+            value: '1000',
+            title: 'Employees'
         },
         {
-            value: '1.234K',
-            title: 'Products'
+            value: '15L',
+            title: 'Inventory Products'
         },
         {
-            value: '$5678',
+            value: '5c-8c',
             title: 'Revenue'
         }
     ],
-    revenueByChannel: [
+    ComplaintsByChannel: [
         {
-            title: 'Direct',
+            title: 'Domestic Complaints',
             value: 70
         },
         {
-            title: 'External search',
-            value: 40
-        },
-        {
-            title: 'Referal',
-            value: 60
-        },
-        {
-            title: 'Social',
+            title: 'Corporate complaints',
             value: 30
+        },
+        {
+            title: 'Referal complaints by both',
+            value: 60
         }
     ],
     revenueByMonths: {

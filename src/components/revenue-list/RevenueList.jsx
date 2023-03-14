@@ -7,7 +7,7 @@ const RevenueList = () => {
     return (
         <ul className='revenue-list'>
             {
-                data.revenueByChannel.map((item, index) => (
+                data.ComplaintsByChannel.map((item, index) => (
                     <li className="revenue-list__item" key={`revenue-${index}`}>
                         <div className="revenue-list__item__title">
                             {item.title}
